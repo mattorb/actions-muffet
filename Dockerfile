@@ -1,4 +1,4 @@
-FROM golang:1.12.5-alpine3.9
+FROM golang:1.16.3-alpine3.12
 
 LABEL "com.github.actions.name"="Broken link check with muffet"
 LABEL "com.github.actions.description"="Broken link check quickly with raviqqe/muffet"
